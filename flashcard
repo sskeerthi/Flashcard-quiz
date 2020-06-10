@@ -1,0 +1,232 @@
+print("welcome to the flashcard quiz by URCE 2nd Year IT Students(1205,1232,1216) 2019")
+print(" ")
+score=0
+pscore=0
+print("The terms to play the quiz is")
+print(" ")
+print("Please read the terms or instructions to know the about the game")
+print("1.There will be 4 options to the basic questions")
+print("2.You have to type the answers as A or B or C or D")
+print("3.At the end we display the answers if you want to know the answers")
+print(" ")
+print("4.you have to type yes or no to start the quiz")
+print(" ")
+print("5.If you press the enter key without entering anything will end the quiz")
+print("6.You can type both capital and small letters for the answers of questions")
+print("7.There will be 10 questions and have 1 mark to each question")
+print(" ")
+print(" ")
+print("Enter your name")
+a=input()
+print("hello",a)
+start = input("Are you ready to play the quiz?")
+if start =="yes" or start=="YES":
+    print("1.how many bits make a byte")
+    print(" A) 16 bits")
+    print(" B) 8 bits")
+    print(" C) 24 bits")
+    print(" D) 12 bits")
+    q1=input("Choose the correct one for the question 1")
+    if q1=="B" or q1=="b":
+        print("Thats a right answer,congrats move ahead")
+        score=1
+        print("the score is",score)
+        pscore=pscore+score
+        print("Your  current score is",pscore)
+    else:
+        score=0
+        print("oops! That is a wrong answer,its ok the next question is")
+        print("the answer is B")
+        print("Your score is",score)
+    print(" ")
+    print("2.The process of starting or restarting a computer is called")
+    print(" A) start up point")
+    print(" B) connecting")
+    print(" C) booting")
+    print(" D) Resetting")
+    q2=input("Choose the correct answer for the question 2")
+    if q2=="C" or q2=="c":
+        print("Thats a right answer,congrats move ahead")
+        score=1
+        print("the score is",score)
+        pscore=pscore+score
+        print("Your current score is",pscore)
+    else:
+        score=0
+        print("oops! That is a wrong answer,its ok the next question is")
+        print("the answer is C")
+        print("your score is",score)
+    print(" ")
+    print("3.The other name of hard disk is")
+    print(" A) compact disc")
+    print(" B) fixed disk")
+    print(" C) harddrive disk")
+    print(" D) floppy disk")
+    q3=input("choose the correct answer for question 3")
+    if q3=="C" or q3=="c":
+        print("Thats a right answer,keep going")
+        score=1
+        print("the score is",score)
+        pscore=pscore+score
+        print("Your current score is",pscore)
+    else:
+        score=0
+        print("oops! That is a wrong answer,its ok next question is")
+        print("the answer is C")
+        print("Your score is",score)
+    print(" ")
+    print("4.one component of the motherboard is")
+    print(" A) processor")
+    print(" B) bios")
+    print(" C) computer chip")
+    print(" D) transistor")
+    q4=input("Choose the correct answer for question 4")
+    if q4=="A" or q4=="a":
+        print("Thats a right answer,congrats")
+        score=1
+        print("the score is",score)
+        pscore=pscore+score
+        print("Your current score is",pscore)
+    else:
+        score=0
+        print("oops! That is a wrong answer")
+        print("the answer is A")
+        print("Your score is",score)
+    print(" ")
+    print("5.Short cut key for undo is")
+    print(" A) Ctrl+a")
+    print(" B) Ctrl+s")
+    print(" C) Ctrl+z")
+    print(" D) Ctrl+c")
+    q5=input("Choose the correct answer for question 5")
+    if q5=="C" or q5=="c":
+        print("Thats a right answer")
+        score=1
+        print("the score is",score)
+        pscore=pscore+score
+        print("Your current score is",pscore)
+    else:
+        score=0
+        print("oops! Thats a wrong answer")
+        print("the answer is C")
+        print("Your score is",score)
+    print(" ")
+    print("6.1GB=____KB")
+    print(" A) 1024")
+    print(" B) 1344")
+    print(" C) 1111")
+    print(" D) 678")
+    q6=input("choose the correct answer for question 6")
+    if q6=="A" or q6=="a":
+        print("Thats a right answer")
+        score=1
+        print("the score is",score)
+        pscore=pscore+score
+        print("Your current score is",pscore)
+    else:
+        score=0
+        print("oops! Thats a wrong answer")
+        print("the answer is A")
+        print("Your score is",score)
+    print(" ")
+    print("7.The smallest measurement of memory is")
+    print(" A) 6000 miles")
+    print(" B) 12000 miles")
+    print(" C) 8000 miles")
+    print(" D) 9000 miles")
+    q7=input("Choose the correct answer for question 7")
+    if q7=="C" or q7=="c":
+        print("Thats a right answer")
+        score=1
+        print("the score is",score)
+        pscore=pscore+score
+        print("Your current score is",pscore)
+    else:
+        score=0
+        print("oops! Thats a wrong answer")
+        print("the answer is C")
+        print("Your score is",score)
+    print(" ")
+    print("8.Why is Big Data important?")
+    print(" A) Because it is structured")
+    print(" B) Because of its size")
+    print(" C) Because of its  reveal patterns and patterns")
+    print(" D) None of these")
+    q8=input("Choose the correct answer for question 8")
+    if q8=="C" or q8=="c":
+        print("Thats a right answer")
+        score=1
+        print("the score is",score)
+        pscore=pscore+score
+        print("Your current score is",pscore)
+    else:
+        score=0
+        print("oops! Thats a wrong answer")
+        print("the answer is C")
+        print("Your score is",pscore)
+    print(" ")
+    print("9.Which computer language is the most widely used?")
+    print(" A) C#")
+    print(" B) Swift")
+    print(" C) PHP")
+    print(" D) Java")
+    q9=input("Choose the correct answer for question 9")
+    if q9=="D" or q9=="d":
+        print("Thats a right answer")
+        score=1
+        print("the score is",score)
+        pscore=pscore+score
+        print("Your current score is",pscore)
+    else:
+        score=0
+        print("oops! Thats a wrong answer")
+        print("the answer is D")
+        print("Your score is",score)
+    print("The last question is")
+    print(" ")
+    print("10.What is World's First Regional Operating System?")
+    print(" A) iOS")
+    print(" B) Windows")
+    print(" C) INDUS")
+    print(" D) None")
+    q10=input("Choose the correct answer for question 10")
+    if q10=="C" or q10=="c":
+        print("Thats a right answer and you finished the quiz")
+        score=1
+        print("the score is",score)
+        pscore=pscore+score
+        print("Your current score is",pscore)
+    else:
+        score=0
+        print("oops! Thats a wrong answer and quiz is finished")
+        print("the answer is C")
+        print("Your score is",score)
+    print(" ")
+    print("the total score is",pscore)
+    print(" ")
+    print("Thankyou for giving your precious time for our quiz")
+    print(" ")
+    k=input("Do you want the right answers for the 10 questions in our quiz")
+    if k=="yes" or k=="YES":
+        print("The answers are ")
+        print("1.A")
+        print("2.C")
+        print("3.C")
+        print("4.A")
+        print("5.C")
+        print("6.A")
+        print("7.C")
+        print("8.C")
+        print("9.D")
+        print("10.C")
+    else:
+        print("Its ok.Have a nice day:)",a)
+    print(" ")
+    print("Finally your  score is",pscore)
+    print(" ")
+    print(a,"You have played very well keep going like this and once again thankyou:)")
+else:
+    print("Thanks for joining our quiz:)")
+    
+
+
